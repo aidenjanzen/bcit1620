@@ -1,0 +1,114 @@
+header {
+    background-color: #605856ff;
+    /* padding-bottom: 100%; */
+    margin-right: 0%;
+    /* margin-bottom: -100%;  */
+    justify-content: start;
+    display: flex;
+}
+
+/* Sidebar------------------------------------*/
+
+.sidebar {
+    background-color: #605856ff;
+    padding-bottom: 100%;
+    margin-left: 80%;
+    margin-bottom: -100%;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    display: block;
+    position: absolute;
+}
+
+.sidebar-image {
+    /* margin: 5%; */
+    padding: 0% 30% 0% 30%;
+    width: 40%;
+    height: auto;
+    border-radius: 100%;
+    /* justify-items: center; */
+    /* align-content: center; */
+}
+
+.sidebar-text {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-image {
+    width: 300px;
+    /* border-radius: 200%; */
+    padding: 0px;
+    margin: 40px 40px 40px 40px;
+    display: inline;
+}
+
+a {
+    color: white;
+}
+
+h2 {
+    margin: 0;
+}
+
+#cit {
+    color: #1c6e8cff;
+    
+}
+
+.lower-header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d0ccd0ff;
+    display: flex;
+    margin-right: 20%;
+    align-items: center;
+    font-size: 2em;
+}
+
+.content-wrap {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+
+/* Buttons------------------------------------*/
+
+button {
+
+    background-color: #605856ff;
+    color: #fbfcffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #605856ff;
+    padding: 2px 5px 2px 5px;
+    height: auto;
+    width: auto;
+    font-size: 1.2em;
+}
+
+button:hover {
+    padding: 2px 5px 2px 5px;
+    border: 2px solid #d0ccd0ff;
+}
+
+
+
+/*
+--french-grey: #d0ccd0ff; grey
+--white: #fbfcffff; less white, white
+--wenge: #605856ff; brown
+--cerulean: #1c6e8cff; medium blue
+--charcoal: #274156ff; dark blue
+*/
